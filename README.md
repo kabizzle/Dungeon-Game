@@ -25,3 +25,11 @@ The user controls the game by pressing the following keyboard keys.
 - q: exit game
 
 Input is line buffered, so the player needs to press "Enter" after the command to observe its impact.
+
+## Features I Implemented
+
+- isBlocked function (checks whether the player is allowed to move to the tile at the specified position)
+- createMonsters function (creates specified number of monsters and places them at random positions in the game area)
+- moveTowards function (moves a monster one tile towards the player’s location)
+- moveAway function (moves a monster one tile away from the player’s location)
+- monsterAction (invokes an action for every monster alive in the game)
